@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+
+    background-color: #cdc1b5;
+    border: 6px solid #bbada0;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #bbada0;
+
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    background-size: 80px;
+    color: #77777700;
+    background-repeat: no-repeat;
+}
+
+/* colored tiles */
+
+.x2 {
+    background-color: #eee4da;
+    background-image: url(images/2.jpg);
+}
+
+.x4 {
+    background-color: #ece0ca;
+    background-image: url(images/4.jpg);
+}
+
+.x8 {
+    background-color: #f4b17a;
+    background-image: url(images/8.jpg);
+}
+
+.x16{
+    background-color: #f59575;
+    background-image: url(images/16.jpg);
+}
+
+.x32{
+    background-color: #f57c5f;
+    background-image: url(images/32.jpg);
+}
+
+.x64{
+    background-color: #f65d3b;
+    background-image: url(images/64.jpg);
+}
+
+.x128{
+    background-color: #edce71;
+    background-image: url(images/128.jpg);
+}
+
+.x256{
+    background-color: #edcc63;
+    background-image: url(images/256.jpg);
+}
+
+.x512{
+    background-color: #edc651;
+    background-image: url(images/512.jpg);
+}
+
+.x1024{
+    background-color: #eec744;
+    background-image: url(images/1024.jpg);
+}
+
+.x2048{
+    background-color: #ecc230;
+    background-image: url(images/2048.jpg);
+}
+
+.x4096 {
+    background-color: #fe3d3d;
+    background-image: url(images/4096.jpg);
+}
+
+.x8192 {
+    background-color: #ff2020;
+    background-image: url(images/8192.jpg);
+}
